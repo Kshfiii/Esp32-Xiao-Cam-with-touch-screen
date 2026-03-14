@@ -57,8 +57,7 @@ _Files and their functions:_
 4. capturesd_card.hSD card init, save photos, list files
 5. gallery.hSwipe-based photo gallery
 
-
-##Hardware Note — J3 Solder Jumper
+## Hardware Note — J3 Solder Jumper
 
 The XIAO ESP32-S3 Sense and the Round Display both have SD card pull-up resistors on the same SPI lines. This causes a conflict and neither SD slot will work unless you fix it.
 
