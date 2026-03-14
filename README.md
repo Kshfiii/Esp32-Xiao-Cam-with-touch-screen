@@ -57,8 +57,8 @@ _Files and their functions:_
 4. capturesd_card.hSD card init, save photos, list files
 5. gallery.hSwipe-based photo gallery
 
-#
-!Hardware Note — J3 Solder Jumper
+
+##Hardware Note — J3 Solder Jumper
 
 The XIAO ESP32-S3 Sense and the Round Display both have SD card pull-up resistors on the same SPI lines. This causes a conflict and neither SD slot will work unless you fix it.
 
@@ -73,6 +73,15 @@ Flip the Sense expansion board over and find the J3 solder jumper
 This disables the sd card slot of the esp32-sense 
  (don't worry, it's reversible. Just solder J3 back)
 
+
+## Component List
+
+1. Seeed studio Xiao Esp32-s3 sense
+2. 3.7v 400mah rechargeable Lipo Battery 
+3. Xiao Esp32 S3 1.28" round ouch screen
+4. Seeed studio OV5640 Camera
+5. Tactile switch 
+6. Slide switch
 
 
 
