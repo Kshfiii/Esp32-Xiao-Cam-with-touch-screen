@@ -1,0 +1,10 @@
+#,Component,Description,Qty,Unit Price (USD),Total (USD),Supplier,Link,Notes
+1,XIAO ESP32-S3 Sense,Microcontroller with OV2640 camera + mic,1,16.50,16.50,Seeed Studio,https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html,
+2,Round Display for XIAO,1.28" round touch display + SD slot + charging IC,1,21.00,21.00,Seeed Studio,https://www.seeedstudio.com/1-28-Round-Touch-Display-for-Seeed-Studio-XIAO-ESP32.html,
+3,OV5640 Camera Module,5MP camera upgrade for XIAO Sense,1,14.00,14.00,Seeed Studio,https://www.seeedstudio.com/OV5640-Camera-for-XIAO-ESP32S3-Sense-With-Heat-Sink-p-5739.html,Optional upgrade
+4,Tactile Switch Set,6x6mm tactile buttons 20pcs,1,1.20,1.20,AliExpress,[ADD LINK],Only 1 needed for shutter
+5,Brass Screw Terminal,With tip for case assembly,1,2.50,2.50,AliExpress,[ADD LINK],
+6,LiPo Battery 400mAh,3.7V rechargeable JST 1.25mm,1,0.50,0.50,Local,[ADD LINK],
+7,Memory Card 1TB,Enovo High Speed,1,5.00,5.00,Local,[ADD LINK],Format as FAT32 before use
+8,3D Printing,PLA filament + printing cost for case,1,20.00,20.00,Local,[ADD LINK],
+,,,,TOTAL (USD),80.70,,
