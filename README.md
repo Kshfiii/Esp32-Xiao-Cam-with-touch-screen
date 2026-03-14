@@ -77,7 +77,7 @@ This disables the sd card slot of the esp32-sense
 
 1. Seeed studio Xiao Esp32-s3 sense
 2. 3.7v 400mah rechargeable Lipo Battery 
-3. Xiao Esp32 S3 1.28" round ouch screen
+3. Xiao Esp32 S3 1.28" round touch screen Display
 4. Seeed studio OV5640 Camera
 5. Tactile switch 
 6. Slide switch
