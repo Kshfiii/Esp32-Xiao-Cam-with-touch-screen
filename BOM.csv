@@ -1,3 +1,5 @@
+
+## Bill of materials:
 #,Component,Description,Qty,Unit Price (USD),Total (USD),Supplier,Link,Notes
 1,XIAO ESP32-S3 Sense,Microcontroller with OV2640 camera + mic,1,16.50,16.50,Seeed Studio,https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html,
 2,Round Display for XIAO,1.28" round touch display + SD slot + charging IC,1,21.00,21.00,Seeed Studio,https://www.seeedstudio.com/1-28-Round-Touch-Display-for-Seeed-Studio-XIAO-ESP32.html,
