@@ -82,6 +82,8 @@ This disables the sd card slot of the esp32-sense
 5. Tactile switch 
 6. Slide switch
 
+_Links available in Bom.csv with prices_
+
 
 
 
