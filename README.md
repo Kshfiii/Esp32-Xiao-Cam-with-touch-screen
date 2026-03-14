@@ -1,6 +1,3 @@
-# Cute-Camera
-A cute camera made from Seeed studio esp32-s3 sense and 1.27 inch display. 
-
 # Xiao esp32-s3 sense based Camera with touch screen
 
 XIAO Cam is a pocket-sized DIY camera built around the Seeed Studio XIAO ESP32-S3 Sense microcontroller. It displays a live camera feed on a 1.28" round touchscreen, captures photos to a microSD card with a  button press, and lets you browse your shots through a swipe-based gallery; housed inside a custom 3D printed case.
