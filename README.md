@@ -9,7 +9,7 @@ It's for people who are interested in a simple hardware build that actually serv
 
 XIAO Cam is a custom point-and-shoot camera built from scratch. I did everything myself, from the 3d printed case to the firmware and component selection.
 
-I made this because I wanted to sharpen my CAD skills. I challenged myself to build something that actually works as a real device, and looks professional. Plus I've wanted to buy a digi cam for a while and i thought whiley not make it myself.
+I made this because I wanted to sharpen my CAD skills. I challenged myself to build something that actually works as a real device, and looks professional. Plus I've wanted to buy a digi cam for a while and i thought why not make it myself.
 ## Usage & Features
 
 1. Power on using the slide switch on the side camera
