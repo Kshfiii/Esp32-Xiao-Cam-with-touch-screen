@@ -84,6 +84,8 @@ This disables the sd card slot of the esp32-sense
 
 _Links available in Bom.csv with prices_
 
+#
+Happy Building :)
 
 
 
