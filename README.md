@@ -82,7 +82,16 @@ This disables the sd card slot of the esp32-sense
 5. Tactile switch 
 6. Slide switch
 
-_Links available in Bom.csv with prices_
+## Bill of Materials
+Component,Qty,Est. Cost (USD),Purchase Links
+Seeed studio Xiao Esp32-s3 sense,1,$16.50,https://www.aliexpress.com/item/1005006988111963.html
+Xiao Esp32 S3 1.28in round touch screen,1,$21.00,https://www.aliexpress.com/item/1005006989795918.html
+Seeed studio OV5640 Camera,1,$14.00,https://www.aliexpress.com/item/1005006998908588.html
+Tactile Switch Set (20pcs),1,$1.20,https://www.aliexpress.com/item/1005005845072975.html
+Brass Inserts,1,$2.50,https://www.aliexpress.com/item/1005008684741327.html
+3.7V 400mAh LiPo Battery,1,$0.50,https://digilog.pk/products/3-7v-300mah-602030-rechargeable-lithium-polymer-battery-lipo-cells
+3D Printing,1,$4.00,https://jlc3dp.com/3d-printing-quote
+Total Build Cost:,,~$59.70 USD,
 
 #
 Happy Building :)
