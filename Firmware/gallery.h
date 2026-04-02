@@ -5,10 +5,6 @@
 #include "sd_card.h"
 #include "config.h"
 
-// ============================================================
-//  gallery.h — swipe left/right to browse saved photos
-//              swipe down to return to viewfinder
-// ============================================================
 
 extern TFT_eSPI tft;
 
@@ -17,7 +13,6 @@ static int _current = 0;
 
 void gallery_load() {
   _photos = sd_list_photos();
-  // Start at the most recent photo
   _current = _photos.empty() ? 0 : (int)_photos.size() - 1;
 }
 
@@ -34,7 +29,7 @@ void gallery_draw() {
     return;
   }
 
-  // Load JPEG from SD and draw it
+
   File f = SD.open(_photos[_current]);
   if (f) {
     size_t sz = f.size();
@@ -49,7 +44,7 @@ void gallery_draw() {
     }
   }
 
-  // "2 / 7" counter at the bottom
+
   String counter = String(_current + 1) + " / " + String(_photos.size());
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
   tft.setTextSize(1);
@@ -58,7 +53,7 @@ void gallery_draw() {
   tft.setCursor((SCREEN_W - tw) / 2, 222);
   tft.print(counter);
 
-  // Swipe hint
+ 
   tft.setTextColor(TFT_DARKGREY, TFT_BLACK);
   tft.setCursor(52, 8);
   tft.print("swipe down: back");
