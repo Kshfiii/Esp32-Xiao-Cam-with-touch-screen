@@ -2,10 +2,6 @@
 #include "esp_camera.h"
 #include "config.h"
 
-// ============================================================
-//  camera.h — init and grab frames
-// ============================================================
-
 bool camera_init() {
   camera_config_t cfg = {};
   cfg.ledc_channel  = LEDC_CHANNEL_0;
@@ -29,8 +25,8 @@ bool camera_init() {
   cfg.xclk_freq_hz  = 20000000;
   cfg.pixel_format  = PIXFORMAT_JPEG;
   cfg.frame_size    = FRAMESIZE_240X240;
-  cfg.jpeg_quality  = 12;           // Slightly looser for smooth viewfinder
-  cfg.fb_count      = 2;            // Double buffer = no tearing
+  cfg.jpeg_quality  = 12;           
+  cfg.fb_count      = 2;            
   cfg.grab_mode     = CAMERA_GRAB_LATEST;
   cfg.fb_location   = CAMERA_FB_IN_PSRAM;
 
@@ -39,7 +35,7 @@ bool camera_init() {
     return false;
   }
 
-  // Auto everything — sensible defaults for a point-and-shoot
+  
   sensor_t *s = esp_camera_sensor_get();
   s->set_whitebal(s, 1);
   s->set_awb_gain(s, 1);
@@ -50,12 +46,12 @@ bool camera_init() {
   return true;
 }
 
-// Grab one frame — MUST call esp_camera_fb_return(fb) when done
+
 camera_fb_t* camera_grab() {
   return esp_camera_fb_get();
 }
 
-// Temporarily raise quality before saving a photo, then restore
+
 void camera_quality_high() {
   esp_camera_sensor_get()->set_quality(esp_camera_sensor_get(), PHOTO_QUALITY);
 }
