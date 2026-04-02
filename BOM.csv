@@ -1,9 +1,8 @@
-| Component | Quantity | Est. Cost (USD) | Purchase Links | 
-| :--- | :---: | :--- | :--- | 
-| **Seeed studio Xiao Esp32-s3 sense**| 1 | $16.50 | https://www.aliexpress.com/item/1005006988111963.html | 
-| **Xiao Esp32 S3 1.28in round touch screen**| 1 | $21.00 | https://www.aliexpress.com/item/1005006989795918.html | 
-| **Seeed studio OV5640 Camera** | 1 | $23.71 |https://www.aliexpress.com/item/1005007469761633.html?spm=a2g0o.detail.0.0.1775oeOwoeOwDY&mp=1&pdp_npi=6%40dis%21PKR%21PKR%206618.06%21PKR%206461.46%21%21PKR%206461.46%21%21%21%40213ba8cc17748604581288280e9169%2112000040885627353%21ct%21PK%21-1%21%211%210%21 | 
-| ** Tactile Switch Set (20pcs)** | 1 | $1.20 |https://www.aliexpress.com/item/1005005845072975.html | 
-| ** Brass Inserts** | 1 | $2.50 | https://www.aliexpress.com/item/1005008684741327.html | 
-| ** 3.7V 400mAh LiPo Battery** | 1 | $0.50 | https://digilog.pk/products/3-7v-300mah-602030-rechargeable-lithium-polymer-battery-lipo-cells | 
-| **Total Build Cost:** |  | **~$66.00** |
+Component,Qty,Est. Cost (USD),Purchase Links
+Seeed studio Xiao Esp32-s3 sense,1,$16.50,https://www.aliexpress.com/item/1005006988111963.html
+Xiao Esp32 S3 1.28in round touch screen,1,$21.00,https://www.aliexpress.com/item/1005006989795918.html
+Seeed studio OV5640 Camera,1,$23.00,https://www.aliexpress.com/item/1005007469761633.html?spm=a2g0o.detail.0.0.1775oeOwoeOwDY&mp=1&pdp_npi=6%40dis%21PKR%21PKR%206618.06%21PKR%206461.46%21%21PKR%206461.46%21%21%21%40213ba8cc17748604581288280e9169%2112000040885627353%21ct%21PK%21-1%21%211%210%21
+Tactile Switch Set (20pcs),1,$1.20,https://www.aliexpress.com/item/1005005845072975.html
+Brass Inserts,1,$2.50,https://www.aliexpress.com/item/1005008684741327.html
+3.7V 400mAh LiPo Battery,1,$0.50,https://digilog.pk/products/3-7v-300mah-602030-rechargeable-lithium-polymer-battery-lipo-cells
+Total Build Cost:,,~$66 USD,
