@@ -23,7 +23,7 @@ Swipe left or right to browse your saved photos
 #
 P.s. There is a placeholder to attach a lanyard to the camera for practicality.
 
-## Project snippets
+## Project Images
 ![Assembly_front](https://github.com/user-attachments/assets/a1629904-7616-4744-82ce-1f8faa3d9746)
 ![case](https://github.com/user-attachments/assets/29335652-aac3-4b5a-96c6-8e42c1b66702)
 ![cad](https://github.com/user-attachments/assets/04864a12-d9a6-4c8d-b14b-d87ade8b941e)
