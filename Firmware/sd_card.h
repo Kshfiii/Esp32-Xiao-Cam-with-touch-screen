@@ -3,10 +3,6 @@
 #include <FS.h>
 #include "config.h"
 
-// ============================================================
-//  sd_card.h — save photos and list them for the gallery
-// ============================================================
-
 static int _next_index = 0;
 
 bool sd_init() {
@@ -16,7 +12,6 @@ bool sd_init() {
   }
   if (!SD.exists("/photos")) SD.mkdir("/photos");
 
-  // Find the next unused index so we never overwrite old photos
   while (SD.exists("/photos/img_" + String(_next_index) + ".jpg")) {
     _next_index++;
   }
@@ -24,7 +19,6 @@ bool sd_init() {
   return true;
 }
 
-// Save raw JPEG bytes, returns true on success
 bool sd_save_photo(uint8_t *buf, size_t len) {
   String path = "/photos/img_" + String(_next_index) + ".jpg";
   File f = SD.open(path, FILE_WRITE);
@@ -36,7 +30,6 @@ bool sd_save_photo(uint8_t *buf, size_t len) {
   return true;
 }
 
-// Return sorted list of all saved photo paths
 std::vector<String> sd_list_photos() {
   std::vector<String> list;
   File dir = SD.open("/photos");
